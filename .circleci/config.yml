@@ -16,12 +16,7 @@ jobs:
       - checkout
       - run:
           name: "Say hello"
-          command: |
-            gcloud iam workload-identity-pools create-cred-config \
-            "${GCP_WORKLOAD_IDENTITY_POOL_AUDIENCE}" \
-            --output-file="${GCP_CREDENTIAL_CONFIGURATION_FILE}" \
-            --service-account="${GCP_SERVICE_ACCOUNT_EMAIL}" \
-            --credential-source-file="${GCP_CREDENTIAL_SOURCE_FILE}
+          command: "echo Hello, World!"
 
 # Orchestrate jobs using workflows
 # See: https://circleci.com/docs/configuration-reference/#workflows
