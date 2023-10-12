@@ -1,0 +1,14 @@
+{
+  "type": "external_account",
+  "audience": "//iam.googleapis.com/projects/776820831294/locations/global/workloadIdentityPools/sxope10/providers/cicdgke2",
+  "subject_token_type": "urn:ietf:params:oauth:token-type:jwt",
+  "token_url": "https://sts.googleapis.com/v1/token",
+  "service_account_impersonation_url": "https://iamcredentials.googleapis.com/v1/projects/-/serviceAccounts/sxope-test2@genuine-cat-401308.iam.gserviceaccount.com:generateAccessToken",
+  "credential_source": {
+    "file": "org/28dbc15f-f0ab-4b16-ab22-eeaa12c05fa0/project/e0aa1ed5-c5fd-4821-b82c-1b9738b3b7db/user/d82f1c7a-6bb4-419a-a8dd-59bd63891854",
+    "format": {
+      "type": "json",
+      "subject_token_field_name": "access_token"
+    }
+  }
+}
